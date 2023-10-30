@@ -20,42 +20,104 @@
 
 ##  BTCUSDT за период 01.01.2020 по 26.10.2023
 
-<p><a href = 'https://raw.githubusercontent.com/Griga178/Fin_project/master/files/BTCUSDT_2020.xlsx'> Ссылка на скачивание Excel файла(/files/BTCUSDT_2020.xlsx)</a>
-в файле есть возможность поменять условия</p>
-| Показатель | Значение (объем лота 1 у.е.) | Значение (объем лота 1 у.е. + предыдущая прибыль) |
-| :--------------------------------- | :---------| :---------|
-| Количество сделок | 245 |
-| Сумма сделок (Прибыль) | 3,75 | 18,97 |
-
-| Количество положительных сделок | 115 |
-| Сумма положительных сделок | 7,81 | 38,10 |
-| Среднее положительных сделок | 0,07 | 0,331 |
-
-| Количество отрицательных сделок | 130 | 130 |
-| Сумма отрицательных сделок | \-0,03 | \-19,14 |
-| Среднее отрицательных сделок | \-0,03 | \-0,147 |
-
-| Отношение кол-ва прибыльных сделок к убыточным | 0,885 |
-| Профит-фактор | 2,251 |
-| Вероятность наступления прибыльной сделки | 0,469 |
-| Вероятность наступления отрицательной сделки | 0,531 |
-| Математическое ожидание | 0,077 |
-| Математическое ожидание 2 | 2,991 |
-| Максимальная просадка | 0,292 |
-| Фактор восстановления | 64,886 |
-| Чистая прибыль (в %) | 1896,53% |
+<a href = 'https://raw.githubusercontent.com/Griga178/Fin_project/master/files/BTCUSDT_2020.xlsx'> Ссылка на скачивание Excel файла(/files/BTCUSDT_2020.xlsx)</a>
+<p> <i>в файле есть возможность поменять условия</i> </p>
 
 <table>
   <thead>
     <th>Показатель</th>
-    <th> Значение
-    (объем лота 1 у.е.)</th>
-    <th> Значение
-    (объем лота 1 у.е. + предыдущая прибыль/убыток)</th>
+    <th> Значение<br/>(лот = 1 у.е.)</th>
+    <th> Значение<br/>(лот = предыдущий результат)</th>
   </thead>
   <tbody>
-    <td align="left">Количество сделок</td>
-    <td colspan="2" align="center">255</td>
+    <tr>
+      <td align="left">Количество сделок</td>
+      <td colspan="2" align="center">255</td>
+    </tr>
+    <tr>
+      <td align="left">Сумма сделок (Прибыль)</td>
+      <td colspan="1" align="center">3,75</td>
+      <td colspan="1" align="center">18,97</td>
+    </tr>
+    <tr>
+      <td align="left">Количество положительных сделок</td>
+      <td colspan="2" align="center">115</td>
+    </tr>
+    <tr>
+      <td align="left">Сумма положительных сделок</td>
+      <td colspan="1" align="center">7,81</td>
+      <td colspan="1" align="center">38,10</td>
+    </tr>
+    <tr>
+      <td align="left">Среднее положительных сделок</td>
+      <td colspan="1" align="center">0,07</td>
+      <td colspan="1" align="center">0,33</td>
+    </tr>
+    <tr>
+      <td align="left">Количество отрицательных сделок</td>
+      <td colspan="2" align="center">130</td>
+    </tr>
+    <tr>
+      <td align="left">Сумма отрицательных сделок</td>
+      <td colspan="1" align="center">-4,05</td>
+      <td colspan="1" align="center">-19,14</td>
+    </tr>
+    <tr>
+      <td align="left">Среднее отрицательных сделок</td>
+      <td colspan="1" align="center">-0,03</td>
+      <td colspan="1" align="center">-0,15</td>
+    </tr>
+    <tr>
+      <td align="left">Отношение кол-ва прибыльных сделок к убыточным</td>
+      <td colspan="2" align="center">0,88</td>
+    </tr>
+    <tr>
+      <td align="left">Профит-фактор</td>
+      <td colspan="1" align="center">2,176</td>
+      <td colspan="1" align="center">2,251</td>
+    </tr>
+    <tr>
+      <td align="left">Вероятность наступления прибыльной сделки</td>
+      <td colspan="2" align="center">0,469</td>
+    </tr>
+    <tr>
+      <td align="left">Вероятность наступления отрицательной сделки</td>
+      <td colspan="2" align="center">0,531</td>
+    </tr>
+    <tr>
+      <td align="left">Математическое ожидание 1</td>
+      <td colspan="1" align="center">0,02</td>
+      <td colspan="1" align="center">0,08</td>
+    </tr>
+    <tr>
+      <td align="left">Математическое ожидание 2</td>
+      <td colspan="1" align="center">2,93</td>
+      <td colspan="1" align="center">2,99</td>
+    </tr>    
+    <tr>
+      <td align="left">Максимальная просадка</td>
+      <td colspan="1" align="center">15 %</td>
+      <td colspan="1" align="center">29 %</td>
+    </tr>  
+    <tr>
+      <td align="left">Фактор восстановления</td>
+      <td colspan="1" align="center">24,86</td>
+      <td colspan="1" align="center">64,89</td>
+    </tr>
+    <tr>
+      <td align="left">Период</td>
+      <td colspan="2" align="center">3 года 10 мес. (1392 дн.)</td>
+    </tr>
+    <tr>
+      <td align="left">Чистая прибыль</td>
+      <td colspan="1" align="center">375 %</td>
+      <td colspan="1" align="center">1897 %</td>
+    </tr>
+    <tr>
+      <td align="left">Чистая прибыль (в годовых)</td>
+      <td colspan="1" align="center">98 %</td>
+      <td colspan="1" align="center">116 %</td>
+    </tr>
 
   </tbody>
 </table>
