@@ -1,5 +1,10 @@
 # Торговый советник
 
+## Обновление статистики (05.05.2024)
+
+<a href = 'https://raw.githubusercontent.com/Griga178/Fin_project/master/files/BTCUSDT_01012023_31122023.xlsx'> Сделки за 2023 год (Excel) (/files/...)</a>
+<a href = 'https://raw.githubusercontent.com/Griga178/Fin_project/master/files/BTCUSDT_01012024_05042024.xlsx'> Сделки за 2024 год (Excel) (/files/...)</a>
+
 ## Описание
 
   распределение свечей по моментам, при наступлении определенных условий
@@ -10,6 +15,7 @@
   - модуль анализа подбирающий коэффициенты для новых активов (настройка стратегии)
   - визуализация matplotlib.pyplot
   - сохранение отчетов в excel
+
 
 ## Визуализация
 <ul>
